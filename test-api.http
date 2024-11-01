@@ -10,24 +10,24 @@ Accept: application/json
 
 ###
 
-# GET all users
-GET http://localhost:8000/users
+# GET all students
+GET http://localhost:8000/students
 Accept: application/json
 
 ###
 
-# GET a specific user by ID
-GET http://localhost:8000/users/1
+# GET a specific student by ID
+GET http://localhost:8000/students/1
 Accept: application/json
 
 ###
 
-# POST create a new user
-POST http://localhost:8000/users
+# POST create a new student
+POST http://localhost:8000/students
 Content-Type: application/json
 
 {
-  "name": "Charlie",
+  "name": "Charlee",
   "age": 22
 }
 
