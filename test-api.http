@@ -27,22 +27,24 @@ POST http://localhost:8000/students
 Content-Type: application/json
 
 {
-  "name": "Charlee",
-  "age": 22
+  "ID": 2,
+  "Name": "Stephen Green",
+  "Grade": "A",
+  "Email": "gree4444@algonquinlive.com"
 }
 
 ###
 
-# PUT update a user by ID
-PUT http://localhost:8000/users/1
+# PUT update a student by ID
+PUT http://localhost:8000/students/1
 Content-Type: application/json
 
 {
-  "name": "Alice Updated",
-  "age": 26
+  "Name": "Andrew Updated",
+  "Grade": "C"
 }
 
 ###
 
-# DELETE a user by ID
-DELETE http://localhost:8000/users/1
+# DELETE a student by ID
+DELETE http://localhost:8000/students/1
