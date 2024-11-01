@@ -11,7 +11,13 @@ app = Flask(__name__)
 # In-memory "database" of students
 # This dictionary holds a set of student records. 
 # In a real-world application, this would be replaced by a database like MySQL, PostgreSQL, or MongoDB.
-students = {}
+students = {
+    1: {
+        'ID': 1,
+        'Name': 'Andrew Brown',
+        'Grade': 'B',
+        'Email': 'brow1063@algonquinlive.com'
+    }}
 
 # Define a welcome route to confirm the API is running
 @app.route('/')
